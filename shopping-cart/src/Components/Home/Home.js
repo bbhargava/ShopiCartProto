@@ -24,7 +24,7 @@ export default class Login extends Component {
         this.props.history.push({
             pathname: '/SearchOutput',
             search: '?query= '+event.target[0].value,
-            data : event.target[0].value
+            params : event.target[0].value
         });
     }
 

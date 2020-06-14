@@ -6,7 +6,7 @@ export default class SearchOutput extends Component {
     super(props);
     this.state = {
       searchResultData: [],
-      searchText:this.props.location.data
+      searchText:this.props.location.params
     };
     
     this.dummyData = [
