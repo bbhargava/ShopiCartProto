@@ -1,0 +1,35 @@
+@media screen and (min-width: 760px) {
+    .about {
+        padding: 60px 0;
+        width: 80%;
+        margin: 0 10%;
+        /* text-align: center; */
+    }
+    .contact {
+        padding: 60px 0;
+        width: 80%;
+        margin: 0 10%;
+    }
+    .contact-us {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 414px) {
+    .about {
+        padding: 60px 0;
+        width: 80%;
+        margin: 0 10%;
+        /* text-align: center; */
+    }
+    .contact {
+        padding: 60px 0;
+        width: 80%;
+        margin: 0 10%;
+    }
+    .contact-us {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}

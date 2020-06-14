@@ -1,0 +1,38 @@
+image: node:8.10.0-alpine
+cache:
+  key: "alpine"
+  paths:
+    - node_modules/
+
+stages:
+  - build
+  - deploy_app
+
+build:
+  stage: build
+  artifacts:
+    paths:
+      - shopping-cart/build/
+  script:
+    - cd shopping-cart
+    - npm install
+    - npm run build
+    - cd ..
+  tags:
+    - grad
+  only:
+    - master
+
+deploy_app:
+  type: deploy
+  stage: deploy_app
+  tags:
+    - dalfcs_gitlab_docker_ci
+  image: ruby:latest
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=$HEROKU_APP_TEST --api-key=$HEROKU_API_KEY --skip_cleanup
+  only:
+    - master

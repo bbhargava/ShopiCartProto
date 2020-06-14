@@ -1,0 +1,21 @@
+/* Add a black background color to the top navigation */
+
+.topnav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.block-1 {
+  flex: 1;
+}
+
+.topnav-right a {
+  text-decoration: none;
+    padding: 8px;
+    margin: auto 5px;
+}
+
+.brand-logo {
+  height: 50px;
+}

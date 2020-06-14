@@ -1,0 +1,240 @@
+
+
+  @media screen and (min-width: 760px) {
+    .SignUp {
+      padding: 60px 0;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+   
+    .SignUp-form {
+      width: 400px;
+      margin: 40px auto 30px;
+      padding: 10px;
+      position: relative;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 3px 7px rgba(0, 0, 0, 0.3), inset 0 1px rgba(255, 255, 255, 1), inset 0 -3px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      background: linear-gradient(#eeefef, #ffffff 10%);
+    }
+    
+    .form .field {
+      position: relative;
+    }
+    
+    .form .field i {
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      height: 36px;
+      width: 36px;
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      box-shadow: 1px 0 0 rgba(255, 255, 255, 0.7);
+      color: #777777;
+      text-align: center;
+      line-height: 42px;
+      transition: all 0.3s ease-out;
+      pointer-events: none;
+    }
+    
+    .SignUp-form .submit {
+      width: 65px;
+      height: 65px;
+      position: absolute;
+      top: 17px;
+      right: -25px;
+      padding: 10px;
+      z-index: 2;
+      /* Styles */
+      background: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.1), inset 0 -3px 2px rgba(0, 0, 0, 0.2);
+    }
+    
+    .SignUp-form button {
+      margin-top: -1px;
+      /* Icon styles */
+      font-size: 0.9em;
+      line-height: 1.75;
+      color: white;
+      border: none;
+      border-radius: inherit;
+      background: linear-gradient(#52cfeb, #42A2BC);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.35), inset 0 3px 2px rgba(255, 255, 255, 0.2), inset 0 -3px 2px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    
+    .SignUp-form button:hover, .SignUp-form button[type=submit]:focus {
+      background: #52cfeb;
+      transition: all 0.3s ease-out;
+    }
+    
+    .SignUp-form button:active {
+      background: #42A2BC;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3), inset 0 3px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .SignUp-form input[type="userField"]:focus, .SignUp-form input[type="password"]:focus {
+      outline: none;
+      width: 60%;
+    }
+    
+    .SignUp-form input[type="userField"], .SignUp-form input[type="password"] {
+      font-family: 'Lato', Calibri, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+      width: 50%;
+      padding: 10px 10px 10px;
+      border: none;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1), inset 0 3px 2px rgba(0, 0, 0, 0.1);
+      border-radius: 3px;
+      background: #f9f9f9;
+      color: #777;
+    }
+   
+    .userField input[type="checkbox"] {
+      height: 11px;
+      border: 1px solid #808080;
+      content: "";
+      background: #FFF;
+    }
+    
+    .err-msg {
+      display: block;
+      color: red;
+      font-size: 12px;
+      text-align: right;
+      margin-right: 17px;
+    }
+  
+    .display{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+  
+    .display-align{
+      flex: 1;
+    }
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 414px){
+    .SignUp {
+      padding: 60px 0;
+      width: 80%;
+      margin: 10%;
+      text-align: center;
+    }
+   
+    .SignUp-form {
+      margin: 40px auto 30px;
+      padding: 10px;
+      position: relative;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 3px 7px rgba(0, 0, 0, 0.3), inset 0 1px rgba(255, 255, 255, 1), inset 0 -3px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      background: linear-gradient(#eeefef, #ffffff 10%);
+    }
+    
+    .form .field {
+      position: relative;
+    }
+    
+    .form .field i {
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      height: 36px;
+      width: 36px;
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      box-shadow: 1px 0 0 rgba(255, 255, 255, 0.7);
+      color: #777777;
+      text-align: center;
+      line-height: 42px;
+      transition: all 0.3s ease-out;
+      pointer-events: none;
+    }
+    
+    .SignUp-form .submit {
+      width: 65px;
+      height: 65px;
+      position: absolute;
+      top: 17px;
+      right: -25px;
+      padding: 10px;
+      z-index: 2;
+      /* Styles */
+      background: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.1), 0 3px 2px rgba(0, 0, 0, 0.1), inset 0 -3px 2px rgba(0, 0, 0, 0.2);
+    }
+    
+    .SignUp-form button {
+      margin-top: -1px;
+      /* Icon styles */
+      font-size: 0.9em;
+      line-height: 1.75;
+      color: white;
+      border: none;
+      border-radius: inherit;
+      background: linear-gradient(#52cfeb, #42A2BC);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.35), inset 0 3px 2px rgba(255, 255, 255, 0.2), inset 0 -3px 2px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    
+    .SignUp-form button:hover, .SignUp-form button[type=submit]:focus {
+      background: #52cfeb;
+      transition: all 0.3s ease-out;
+    }
+    
+    .SignUp-form button:active {
+      background: #42A2BC;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3), inset 0 3px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .SignUp-form input[type="userField"]:focus, .SignUp-form input[type="password"]:focus {
+      outline: none;
+      width: 60%;
+    }
+    
+    .SignUp-form input[type="userField"], .SignUp-form input[type="password"] {
+      font-family: 'Lato', Calibri, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+      width: 50%;
+      padding: 10px 10px 10px;
+      border: none;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1), inset 0 3px 2px rgba(0, 0, 0, 0.1);
+      border-radius: 3px;
+      background: #f9f9f9;
+      color: #777;
+    }
+   
+    .userField input[type="checkbox"] {
+      height: 11px;
+      border: 1px solid #808080;
+      content: "";
+      background: #FFF;
+    }
+    
+    .err-msg {
+      display: block;
+      color: red;
+      font-size: 12px;
+      text-align: right;
+      margin-right: 17px;
+    }
+  
+    .display{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+  
+    .display-align{
+      flex: 1;
+    }
+  }
