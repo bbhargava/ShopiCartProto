@@ -183,7 +183,7 @@ Email Validation in done in login and Sign up page to reduce any chances of spam
 
 GitLab URL:         https://git.cs.dal.ca/bbhargava/a2_bharat_bhargava/  
 Heroku URL:         https://shopicart.herokuapp.com/  
-URL for 4 pages created in this assignment:   
+URL for 5 pages created in this assignment:   
 Home page:          https://shopicart.herokuapp.com/Home  
 Login Page          https://shopicart.herokuapp.com/Login  
 Sign Up Page:       https://shopicart.herokuapp.com/SignUp  
