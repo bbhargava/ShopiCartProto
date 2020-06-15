@@ -179,6 +179,19 @@ I have preferred simple design which is easily accessible the users and have use
 Users can check the products price without login or sign-up just by typing the name on the search bar.
 Email Validation in done in login and Sign up page to reduce any chances of spam.
 
+### Production details
+
+GitLab URL:         https://git.cs.dal.ca/bbhargava/a2_bharat_bhargava/
+Heroku URL:         https://shopicart.herokuapp.com/
+URL for 4 pages created in this assignment:  
+Home page:          https://shopicart.herokuapp.com/Home 
+Login Page          https://shopicart.herokuapp.com/Login
+Sign Up Page:       https://shopicart.herokuapp.com/SignUp
+Search Output Page :https://shopicart.herokuapp.com/SearchOutput?query=%20fruit
+About Us:           https://shopicart.herokuapp.com/AboutUs 
+
+
+
 ## References
 
 1. “HTML,” W3Schools Online Web Tutorials. [Online]. Available: https://www.w3schools.com/. [Accessed: 12-Jun-2020].
